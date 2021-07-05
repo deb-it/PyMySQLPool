@@ -4,12 +4,12 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pymysql-pooling",
-    version="1.0.6",
+    name="pymysql-pooling-fff009654",
+    version="1.0.7",
     description="pymysql-based database connection pool",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/prprprus/PyMySQLPool",
+    url="https://github.com/deb-it/PyMySQLPool",
     packages=setuptools.find_packages(),
     install_requires=["PyMySQL"],
     classifiers=[
